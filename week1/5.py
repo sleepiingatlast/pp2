@@ -1,4 +1,4 @@
-#var types
+#var names
 firstvar = "first"
 sec_var = "second"
 THIRDVAR = "third"

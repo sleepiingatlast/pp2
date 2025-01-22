@@ -1,0 +1,12 @@
+#var types
+firstvar = "first"
+sec_var = "second"
+THIRDVAR = "third"
+fourth4 = "fourth"
+
+'''
+ne nado:
+5fifth = "five"
+six-six = "six"
+seven var = "seven"
+'''

@@ -1,4 +1,14 @@
-lst = [1, 2, 3]
-for i in range(len(lst)):
-       
-    remaining_elements = lst[:i] + lst[i+1:]
+import itertools
+
+def permut():
+    ex = input()
+    permutations = itertools.permutations(ex)
+    
+    for i in permutations:
+        res = ""
+        
+        for char in i:
+            res += char
+        print(res)
+        
+permut()  

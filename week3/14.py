@@ -1,10 +1,9 @@
-# importing 12 task
-from 12 import histogram
+from c4 import Point
 
-ex = input().split()
-nums = []
-for n in ex:
-    nums.append(int(n))
+coord1 = Point(3, 6)
+coord1.show()
+coord1.move(2, 1)
+coord1.show()
 
-histogram(nums)
- 
+coord2 = Point(9, 0)
+coord2.dist(coord1)
